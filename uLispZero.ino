@@ -88,6 +88,8 @@ volatile char Escape = 0;
 
 // Forward references
 object *tee;
+void pfstring (PGM_P s);
+void error (PGM_P string);
 
 // Set up workspace
 
